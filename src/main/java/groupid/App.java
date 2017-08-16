@@ -7,7 +7,13 @@ package groupid;
 public class App 
 {
     public static void main( String[] args )
-    {
-        System.out.println( "Hi Koushik, Hello World!" );
+    {	int a = 20;
+    	int b = 20;
+    	int sum = AppSum.sum(a,b);
+    	
+        System.out.println( "Sum = "+ sum );
     }
+    
+    
+    
 }
