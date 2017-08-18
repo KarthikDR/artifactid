@@ -1,9 +1,9 @@
 package groupid;
 
 public class AppSum {
-	public static int sum(int a, int c)
+	public static int sum(int a, int b)
     {
-    	int sum = a + c;
+    	int sum = a + b;
     	return sum;
     }
 }
